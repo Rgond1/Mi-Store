@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+   
+}
+.navbar{
+    width: 100%;
+    height:60px;
+    background-color: white;
+    position:fixed;
+    list-style-type: none;
+    display: flex;
+    /* border: 1px solid black; */
+    gap:400px
+}
+.logo{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.logo img{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+}
+.logo li:nth-of-type(1){
+    color: orange;
+}
+.logo li:hover{
+    /* border-bottom: 3px solid orange; */
+    cursor: pointer;
+    color: orange;
+}
+.logo_info{
+display: flex;
+list-style-type: none;
+gap: 30px;
+font-size: 20px;
+margin:20px;
+}
+.logo_info li:hover{
+color: orange;
+}
+
+.container2{
+background-color:#f7f7f7;
+width: 100%;
+height:100%;
+padding-top: 60px;
+}
+.cardcont {
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+.card {
+width: 300px; 
+height: 300px; 
+background-color: white;
+border-radius: 8px;
+display: flex;
+/* justify-content: center; */
+/* align-items: center; */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+margin: 20px;
+}
+.card-content {
+padding:30px;
+
+}
+
+.title {
+font-weight: bold;
+}
+
+.discount {
+color: red;
+margin-top: 10px;
+}
+
+.price {
+margin-top: 100px;
+}
+
+.image img {
+width: 100%;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+margin-top:150px;
+}
+.middle{
+width: 80%;
+height: 20vh;
+  margin: auto;
+ background-image: url(https://i03.appmifile.com/313_operator_in/05/06/2023/da85ab08b8be256a4ac91a43c02ad695.jpg?thumb=1&w=1680&f=webp&q=85);
+}
+.middle_info{
+width:300px;
+margin-left: 60px;
+
+}
+.middle_info h1{
+margin-top: 2%;
+}
+#mid_button{
+background-color: black;
+border-radius: 10px;
+width: 100px;
+height:30px;
+color: white;
+margin-bottom: 30px;
+}
